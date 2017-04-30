@@ -6,7 +6,7 @@ This is a small demonstration using WeakReference
 
 In Swift you find in event emitters:
 
-weak var delegate : Delegate?
+        weak var delegate : Delegate?
 
 In Java, and especially in Android, we don't find these in event emitters. This makes for example, if you have an
 activity listening to a global listener (for example from databinding) outside it, the activity is theoretically STILL
